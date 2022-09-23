@@ -2,8 +2,8 @@ const https = require("https")
 const express = require("express")
 const app = express()
 const PORT = process.env.PORT || 3000
-//const TOKEN = process.env.LINE_ACCESS_TOKEN
-const TOKEN = "nIsLX+rP8CO+9tYUNXyAd6hL6ezu3Q+mKb80jWJUFmLZUKkOxHoT7z6GKgC18dylNM+c4hd+Udp2k8uORziZp06GjxkOIMn49nMYKeETj7jMCzSLDi6buDoEanzXQg1hVV8rvMA7gez570RTYLt1rQdB04t89/1O/w1cDnyilFU=";
+const TOKEN = process.env.LINE_ACCESS_TOKEN
+//const TOKEN = "nIsLX+rP8CO+9tYUNXyAd6hL6ezu3Q+mKb80jWJUFmLZUKkOxHoT7z6GKgC18dylNM+c4hd+Udp2k8uORziZp06GjxkOIMn49nMYKeETj7jMCzSLDi6buDoEanzXQg1hVV8rvMA7gez570RTYLt1rQdB04t89/1O/w1cDnyilFU=";
 
 app.use(express.json())
 app.use(express.urlencoded({
